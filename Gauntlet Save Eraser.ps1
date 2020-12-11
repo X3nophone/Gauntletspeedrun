@@ -21,11 +21,6 @@ Write-Host "C:\Users\$([Environment]::UserName)\AppData\Roaming\Arrowhead\ does 
 }
 
 
-#Get Steam ID from directory output to then edit the gaunlet file 
-
-
-
-
 If (Test-Path "C:\Program Files (x86)\Steam\userdata\$SteamID\258970\remote\gauntlet") {
 #Remove Gauntlet file using the directory from the $SteamID varriable 
 Remove-Item -Force -Path "C:\Program Files (x86)\Steam\userdata\$SteamID\258970\remote\gauntlet"
