@@ -1,6 +1,6 @@
 #Gauntlet Easy Save Reset
 
-Write-Host "This script will remove all Gaunlet saves from your user."
+Write-Host "This script will remove all Gauntlet saves from your user."
 Write-Host "Make sure Gauntlet is closed before running this script"
 Write-host "Press any key to continue..."
 [void][System.Console]::ReadKey($true)
