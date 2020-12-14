@@ -46,7 +46,7 @@ Write-Host "C:\Users\$([Environment]::UserName)\AppData\Roaming\Arrowhead\ does 
 
 
 If (Test-Path "C:\Program Files (x86)\Steam\userdata\$SteamID\258970\remote\gauntlet") {
-#Remove Gauntlet file using the directory from the $SteamID varriable 
+#Remove Gauntlet file using the directory from the $SteamID variable 
 Remove-Item -Force -Path "C:\Program Files (x86)\Steam\userdata\$SteamID\258970\remote\gauntlet"
 Write-Host "Gauntlet file has been removed" -ForegroundColor Green
 }
