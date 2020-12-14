@@ -1,3 +1,9 @@
+This is a tool that removes the saves for Gauntlet™ Slayer Edition on Steam in order to make doing speedruns quicker and more convenient.
+
+Game found here: https://store.steampowered.com/app/258970/Gauntlet_Slayer_Edition/
+
+How to use:
+
 Right click ps1 file
 Choose "run in powershell"
 
